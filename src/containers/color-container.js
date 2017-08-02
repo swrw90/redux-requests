@@ -1,14 +1,10 @@
 import React from "react";
+import Color from "../components/color.js";
 
-class ColorContainer extends React.Component {
+class ColorContatiner extends React.Component {
     render() {
-        return (
-            <div className="box" style={{ backgroundColor: "blue" }}>
-                <button>Color</button>
-            </div>
-        )
+        return (<Color />)
     }
 }
 
-export default ColorContainer;
-
+export default ColorContatiner;
